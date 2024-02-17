@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    }
+}
 
 /*Header Navigation*/
 
@@ -13,7 +13,6 @@ body {
     margin-top: 20px;
     margin-left: 550px;
     width: auto;
-    font-weight: bold;
 }
 
 .inline-block ul li {
@@ -22,6 +21,7 @@ body {
     vertical-align: middle;
     list-style-type: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .logo {
@@ -76,6 +76,140 @@ h2 {
     font-size: 40px;
 }
 
+/*About Section*/
+
+.aboutMe {
+    display: inline-block;
+    margin: 187px 158px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 28px 50px 28px 50px;
+    vertical-align: middle;
+    height: 40%;
+    width: 75%;
+}
+
+.profile {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0px;
+}
+
+#profilePic {
+    display: inline-block;
+    text-align: center;
+    width: 37%;
+    margin: auto;
+}
+
+#profilePic img {
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#profilePic h3 {
+    font-size: 48px;
+    margin: auto;
+}
+
+.profile p {
+    display: inline-block;
+    width: 55%;
+    height: 77%;
+    margin: auto;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+/*Skills Section*/
+
+h3 {
+    font-size: 48px;
+    margin: 0px 0px 90px 158px;
+    padding: 0;
+}
+
+.flexContainer {
+    display: flex;
+    padding: 0;
+    margin: 0px 60px 187px 158px;
+    justify-content: space-between;
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    width: 30%;
+}
+
+.skillCard img {
+    width: 175px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+h5 {
+    font-size: 32px;
+}
+
+.skillCard p {
+    font-size: 18px;
+}
+
+/*Portfolio Section*/
+
+#myPortfolio {
+    display: grid;
+    grid-template-rows: max-content 3fr 3fr 3fr max-content;
+    row-gap: 100px;
+    margin-left: 158px;
+    margin-bottom: 187px;
+    padding: 0;
+}
+
+.projectCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    margin: 0;
+}
+
+.projectDetails {
+    align-items: center;
+    margin-right: 75px;
+    align-content: center;
+}
+
+#myPortfolio h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+.projectDetails p {
+    font-size: 24px;
+    margin-right: 65px;
+}
+
+.projectCard img {
+    width: 468px;
+    height: 369px;
+    margin: 0;
+    padding: 0;
+    object-fit: scale-down;
+}
+
+.pivot h4 {
+    margin-top: 75px;
+}
+
 /*Footer*/
 
 footer {
@@ -110,4 +244,10 @@ footer p {
     font-size: 24px;
     margin-right: 615px;
     margin-left: 35px;
+}
+
+/*Responsive Design*/
+
+@media only screen and (max-width: 600) {
+    
 }
