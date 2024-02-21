@@ -39,6 +39,7 @@ nav {
     display: inline-block;
     width: calc(100% - 10% - 40px);
     padding: 1%;
+    margin-left: 100px;
 }
 
 ul {
@@ -59,7 +60,7 @@ ul {
 }
 
 .green {
-    color: green;
+    color: #346E39;
 }
 
 .content {
@@ -147,13 +148,13 @@ h3 {
 }
 
 .skillCard img {
-    width: 175px;
-    border-radius: 20px;
+    width: 200px;
     margin: auto;
 }
 
 h5 {
     font-size: 32px;
+    color: #346E39;
 }
 
 .skillCard p {
@@ -207,7 +208,26 @@ h4 {
 }
 
 .pivot h4 {
-    margin-top: 75px;
+    margin-top: 55px;
+}
+
+.projectDetails button {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #346E39;
+    font-size: 24px;
+    width: 255px;
+    height: 70px;
+    display: inline-block;
+}
+
+.projectDetails img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 25px;
+    margin-left: 10px;
 }
 
 /*Footer*/
@@ -248,6 +268,8 @@ footer p {
 
 /*Responsive Design*/
 
-@media only screen and (max-width: 600) {
-    
+@media screen and (max-width: 600) {
+    .flexContainer {
+        flex-direction: column;
+    }
 }
